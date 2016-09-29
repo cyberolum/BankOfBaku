@@ -1,0 +1,360 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+.bankbackground{
+    background-color: #04C3F4;
+    height: 850px;
+}
+.backimage{
+    height: 100px;
+    /*border: 1px dashed grey*/
+}
+/*.col-md-2{
+    border: 1px dashed white
+}*/
+.border{
+    border: 1px dashed white;
+}
+.icon{
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border-radius:100%;
+    position: relative;
+    z-index: 1;
+    border:none;
+}
+
+.buttonicon{
+    background-image: url(../image/butunbolmeler.png);
+    height: 35px;
+    padding: 10px 0 0 16px;
+    font-size: 13px;
+    color: white;
+    margin:23px;
+    position: relative;
+    cursor: pointer;
+}
+.icontxt{
+    color: #04C3F;
+    font-size: 20px;
+}
+.imageback{
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    border: 1px dashed white;
+    border-bottom: none;
+    border-top: none;
+}
+.imageback1{
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    border-right: 1px dashed white;
+    border-bottom: none;
+    border-top: none;
+}
+.imageback2{
+     position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    border-right: 1px dashed white;
+    border-bottom: none;
+    border-top: none;
+}
+.imageback3{
+     position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    border-right: 1px dashed white;
+    border-bottom: none;
+    border-top: none;
+}
+.imageback4{
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    border-right: 1px dashed white;
+    border-bottom: none;
+    border-top: none;
+}
+.banklogo{
+    position: relative;
+    z-index: ;
+}
+.banklogocursor{
+    cursor: pointer;
+}
+.imagebackimg{
+    transform: translateX(0px);
+    opacity: 0;
+}
+.imagebackimg1{
+    transform: translateX(0px);
+    opacity: 0;
+}
+.imagebackimg2{
+    transform: translateX(0px);
+    opacity: 0;
+}
+.imagebackimg3{
+    transform: translateX(0px);
+    opacity: 0;
+}
+.imagebackimg4{
+    transform: translateX(0px);
+    opacity: 0;
+}
+.valyuta{
+    position: relative;
+    z-index: ;
+    margin:20px;
+}
+.kredit{
+     position: relative;
+    z-index: ;
+    margin-top:22px;
+    margin-left: 5px;
+}
+.valyutatxt{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+}
+.valyutatxt:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer{
+    margin-top: 400px;
+    font-size: 11px;
+}
+
+.exit{
+    font-size: 20px;
+    color: white;
+}
+
+.exit i{
+    position: relative;
+    float: left;
+    left: 400px;
+    top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sectionMenu{
+    width: 70%;
+    height: 78%;
+    background: #0068a7;
+    border-radius: 2%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 909090909;
+    transform: scale(0.1,0.1);
+    opacity: 0;
+}
+
+@media only screen and (max-width: 990px) {
+    #sectionMenu {
+        height: 120%;
+    }
+}
+
+.btn{
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 25px;
+    background-color: floralwhite;
+}
+/*-------------------------------------------*/
+.olcu2{
+    height: 450px;
+    font-size: 16.5px;
+    font-weight: 500;
+    display: table-cell;
+    border-left: 1px solid white;
+    padding-top: 25px;
+}
+
+.olcu2 ul li a{
+    color: white;
+}
+
+.olcu2 ul li a:hover{
+    text-decoration: underline;
+}
+
+/*--------------------------------------*/
+
+.top{
+    height: 170px; 
+    display: block;
+    font-size: 16.5px;
+    font-weight: 500;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid white;
+}
+
+.top ul li a{
+    color: white;
+}
+
+.top ul li a:hover{
+    text-decoration: underline;
+}
+
+/*---------------------------------*/
+
+.bottom{
+    height: 300px;
+    font-size: 16.5px;
+    font-weight: 500;
+    padding-top: 30px;
+    
+    padding: 30px 0 0 0;
+}
+
+.bottom ul li a{
+    color: white;
+}
+
+.bottom ul li a:hover{
+    text-decoration: underline;
+}
+
+.olcu2 ul li{
+    padding-bottom: 15px;
+}
+
+.olcu2 ul li span{
+    padding-right: 10px;
+}
+
+.top ul li{
+    padding-bottom: 15px;
+}
+
+.top ul li span{
+    padding-right: 10px;
+}
+
+.bottom ul li{
+    padding-bottom: 15px;
+}
+
+.bottom ul li span{
+    padding-right: 10px;
+}
+
+/*-------------------------------------*/
+
+.footer .left {
+  position: absolute;
+  left: 17%;
+  top: 77%;
+  cursor: pointer;
+  z-index: 3;
+}
+.footer .right {
+  position: absolute;
+  left: 81%;
+  top: 77%;
+  cursor: pointer;
+  z-index: 3;
+}
+.footer .slayd {
+  position: absolute;
+  bottom: 50px;
+  left: 20%;
+  height: 155px;
+  width: 840px;
+  z-index: 1;
+  overflow: hidden;
+}
+.footer .slayd .first {
+  width: 480px;
+  height: 155px;
+  float: left;
+}
+.footer .slayd .first img {
+  position: absolute;
+}
+.footer .slayd .first img:first-child {
+  z-index: 1;
+}
+.footer .slayd .first .imgleft {
+  left: -480px;
+}
+.footer slayd .second {
+  z-index: 3;
+  width: 180px;
+  height: 155px;
+  float: left;
+  position: absolute;
+  left: 480px;
+}
+.footer .slayd .second img {
+  position: absolute;
+}
+.footer .slayd .second .imgleft2 {
+  left: -180px;
+}
+.footer .slayd .third {
+  z-index: 9;
+  width: 180px;
+  height: 155px;
+  float: left;
+  position: absolute;
+  left: 660px;
+}
+.footer .slayd .third img {
+  position: absolute;
+  z-index: 9;
+}
+.footer .slayd .third .imgleft2 {
+  left: -180px;
+}
